@@ -1,0 +1,30 @@
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url(img/rocket.png) no-repeat;
+  background-size: cover;
+}
+
+
+  h1  {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: Futura;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: Futura;
+    font-weight: bold;
+  }
+}
